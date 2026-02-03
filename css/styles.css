@@ -52,11 +52,11 @@ a {
 }
 
 .logo {
-  font-family: var(--second-family);
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  color: var(--iris);
+  color: #4d5ae5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -66,7 +66,7 @@ a {
 }
 
 .logo-span {
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 address {
@@ -193,8 +193,8 @@ main > section {
 }
 
 .footer {
-  background-color: var(--navy-blue);
-  color: var(--cloud);
+  background-color: #2e2f42;
+  color: #f4f4fd;
   padding: 100px 0;
 }
 
@@ -208,7 +208,21 @@ main > section {
 }
 
 .footer-container .logo-span {
-  color: var(--cloud);
+  color: #f4f4fd;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo-span {
+  color: #f4f4fd;
 }
 
 .footer-text {
@@ -216,5 +230,5 @@ main > section {
   margin: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud);
+  color: #f4f4fd;
 }
