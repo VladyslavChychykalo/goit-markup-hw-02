@@ -22,13 +22,13 @@ body {
   margin: 0;
 }
 
-ul {
+.list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
@@ -55,13 +55,13 @@ button {
 }
 
 .logo {
-  font-family: var(--second-family);
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris); /* #4d5ae5 */
+  color: #4d5ae5;
 }
 
 .nav .logo {
@@ -69,7 +69,7 @@ button {
 }
 
 .logo-span {
-  color: var(--navy-blue); /* #2e2f42 */
+  color: #2e2f42;
 }
 
 address {
@@ -195,7 +195,7 @@ main > section {
 }
 
 .footer {
-  background-color: var(--navy-blue); /* #2e2f42 */
+  background-color: var(--navy-blue);
   padding: 100px 0;
 }
 
