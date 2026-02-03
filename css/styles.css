@@ -209,7 +209,7 @@ main > section {
 }
 
 .footer .logo-span {
-  color: var(--cloud); /* #f4f4fd */
+  color: #f4f4fd;
 }
 
 .footer-text {
@@ -217,5 +217,5 @@ main > section {
   margin: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud); /* #f4f4fd */
+  color: #f4f4fd;
 }
