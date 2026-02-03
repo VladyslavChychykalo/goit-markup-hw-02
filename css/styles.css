@@ -38,7 +38,7 @@ a {
   padding: 0 15px;
 }
 
-.nav__link a {
+.nav-link {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 16px;
@@ -46,43 +46,42 @@ a {
   letter-spacing: 0.02em;
 }
 
-.nav__link a:hover,
-.nav__link a:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--ocean);
 }
 
-.nav__title {
+.logo {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  color: var(--navy-blue);
+  color: var(--iris);
   letter-spacing: 0.03em;
-  margin-right: 76px;
   text-transform: uppercase;
 }
 
-.nav__title span {
-  color: var(--iris);
+.nav .logo {
+  margin-right: 76px;
 }
 
-footer a span {
-  color: var(--iris);
+.logo-span {
+  color: var(--navy-blue);
 }
 
 address {
   font-style: normal;
 }
 
-.address__link a {
+.contacts-link {
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.address__link a:hover,
-.address__link a:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--ocean);
 }
 
@@ -126,31 +125,35 @@ main > section {
   padding: 120px 0;
 }
 
-main > section > h2 {
+.section-title {
   margin: 0 0 72px 0;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  text-transform: capitalize;
 }
 
 .features-item {
   width: 264px;
 }
 
-.features-item h3 {
+.features-title {
   margin: 0 0 8px 0;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
-.features-item p {
+.features-text {
   margin: 0;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 .team {
@@ -163,18 +166,12 @@ main > section > h2 {
   text-align: center;
 }
 
-.team-card h3 {
+.team-card .features-title {
   margin: 32px 0 8px 0;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
 }
 
-.team-card p {
+.team-card .features-text {
   margin: 0 0 32px 0;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .portfolio-card {
@@ -195,7 +192,7 @@ main > section > h2 {
   letter-spacing: 0.02em;
 }
 
-footer {
+.footer {
   background-color: var(--navy-blue);
   color: var(--cloud);
   padding: 100px 0;
@@ -205,21 +202,19 @@ footer {
   padding: 0 15px;
 }
 
-.footer-container a {
+.footer-container .logo {
   display: inline-block;
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: var(--cloud);
   margin-bottom: 16px;
-  text-transform: uppercase;
 }
 
-.footer-container p {
+.footer-container .logo-span {
+  color: var(--cloud);
+}
+
+.footer-text {
   max-width: 264px;
   margin: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--cloud);
 }
