@@ -39,9 +39,8 @@ button {
   margin: 0 auto;
 }
 
-.nav-link,
-.menu-link {
-  color: var(--navy-blue);
+.nav-link {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -55,9 +54,7 @@ button {
   color: var(--ocean);
 }
 
-.logo,
-.header-logo,
-.footer-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -71,8 +68,7 @@ button {
   margin-right: 76px;
 }
 
-.logo-span,
-.logo-studio {
+.logo-span {
   color: #2e2f42;
 }
 
@@ -195,5 +191,5 @@ address {
   margin: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--cloud);
 }
