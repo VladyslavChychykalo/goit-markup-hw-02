@@ -202,13 +202,9 @@ main > section {
   padding: 0 15px;
 }
 
-.footer-container .logo {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.footer-container .logo-span {
-  color: #f4f4fd;
 }
 
 .footer-logo {
@@ -222,7 +218,7 @@ main > section {
 }
 
 .footer-logo-span {
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 
 .footer-text {
@@ -230,5 +226,5 @@ main > section {
   margin: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--cloud);
 }
